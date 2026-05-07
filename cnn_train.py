@@ -21,7 +21,7 @@ from tensorflow.keras.callbacks import (
     ReduceLROnPlateau,
     TensorBoard
 )
-import config
+import cnn_config as config
 import dataset
 import model as model_module
 # ─────────────────────────────────────────────
