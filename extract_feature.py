@@ -16,7 +16,7 @@ Hai chế độ:
 import os
 import numpy as np
 import tensorflow as tf
-import config
+import cnn_config as config
 import dataset as ds
 import model as model_module
 # ─────────────────────────────────────────────
