@@ -11,7 +11,7 @@ from sklearn.decomposition import PCA
 from sklearn.model_selection import GridSearchCV, cross_val_predict
 from sklearn.metrics import accuracy_score, classification_report
 
-from config import DEFAULT_CONFIG
+from svm_config import DEFAULT_CONFIG
 
 # --- LOGGING ---
 logger = logging.getLogger("SVMClassifierModule")
