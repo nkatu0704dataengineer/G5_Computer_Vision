@@ -21,7 +21,7 @@ from tensorflow.keras.preprocessing import (
     image as keras_image
 )
 
-import config
+import cnn_config as config
 
 
 # ─────────────────────────────────────────────
