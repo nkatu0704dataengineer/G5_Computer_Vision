@@ -20,7 +20,7 @@ import os
 import tensorflow as tf
 import numpy as np
 # project modules
-import config
+import cnn_config as config
 import dataset
 import model as model_module
 import cnn_train as train_module
