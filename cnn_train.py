@@ -22,8 +22,8 @@ from tensorflow.keras.callbacks import (
     TensorBoard
 )
 import cnn_config as config
-import dataset
-import model as model_module
+import cnn_dataset as dataset
+import cnn_model as model_module
 # ─────────────────────────────────────────────
 # 1. CALLBACKS
 # ─────────────────────────────────────────────
