@@ -14,7 +14,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, Model
 from tensorflow.keras.applications import VGG16, ResNet50
 from tensorflow.keras.optimizers import Adam
-import config
+import cnn_config as config
 # ─────────────────────────────────────────────
 # 1. TẠO BACKBONE PRETRAINED
 # ─────────────────────────────────────────────
