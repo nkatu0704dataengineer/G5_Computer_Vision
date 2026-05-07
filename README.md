@@ -1,5 +1,4 @@
 # G5_Computer_Vision
-# G5_Computer_Vision
 
 ## CNN + SVM Hybrid Face Recognition Pipeline
 
