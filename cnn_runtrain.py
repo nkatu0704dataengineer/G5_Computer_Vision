@@ -97,7 +97,7 @@ def main():
     model = model_module.build_model(
         num_classes=num_classes
     )
-    model = train_module.compile_model(
+    model = model_module.compile_model(
         model,
         learning_rate=config.LEARNING_RATE
     )
