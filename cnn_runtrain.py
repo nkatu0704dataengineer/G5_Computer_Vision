@@ -21,8 +21,8 @@ import tensorflow as tf
 import numpy as np
 # project modules
 import cnn_config as config
-import dataset
-import model as model_module
+import cnn_dataset as dataset
+import cnn_model as model_module
 import cnn_train as train_module
 import extract_feature
 
