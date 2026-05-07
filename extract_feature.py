@@ -79,7 +79,7 @@ def extract_features_batch(image_paths: list) -> np.ndarray:
         feat = extractor.predict(
             img_array,
             verbose=0
-        ).flatte
+        ).flatten()
         features.append(feat)
     return np.array(features)
 # ─────────────────────────────────────────────
