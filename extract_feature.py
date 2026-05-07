@@ -17,8 +17,9 @@ import os
 import numpy as np
 import tensorflow as tf
 import cnn_config as config
-import dataset as ds
-import model as model_module
+import cnn_dataset as ds
+import cnn_train as train_module
+import cnn_model as model_module
 # ─────────────────────────────────────────────
 # CACHE MODEL
 # ─────────────────────────────────────────────
